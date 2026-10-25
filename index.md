@@ -16,10 +16,10 @@ Contact: worldofronodin@gmail.com
 - A **public build snapshot** is stored too, so other players can fight a "ghost" of your build: your character name, level, power, equipped gear and spells. It is readable by other signed-in players. It carries no email address.
 
 **Weekend tournaments (only if you sign in)**
-- When you start a tournament run, the game stores in Firebase that you started it (your account identifier, the tournament, the weekend and the server time), so the time of the run cannot be changed.
-- At the end of a run the game **asks whether to publish your score**. Only if you say yes, your **character name, your main character's level and your scores of that weekend** (best damage in one fight and the XP of your skills) go on a public leaderboard that every signed-in player can read. If you say no, nothing is published.
+- When you start a tournament run, the game stores in Firebase that you started it (your account identifier, the tournament, the weekend and the server time), so a run cannot be stretched.
+- After your first run the game **asks whether to show your scores on the leaderboards**; you can change the answer at any time in Options. If you say yes, your **game name**, your main character's level and your scores of the weekend can be read by other signed-in players. The game name is a name you chose yourself: it does not have to be your real name, and other players may use the same name. If you say no, only you can see your results.
 - A private record of your own results per weekend is stored under your account identifier. Only you can read it.
-- You can remove all of it with Reset Character (see below).
+- Reset Character removes all of it (see below).
 
 **Advertising (Google AdMob)**
 - The game shows optional rewarded ads (you choose to watch one for a boost). Google AdMob may use your device's advertising ID and similar data to show and measure ads. Where the law requires it (for example in the EU/EEA and UK), the game first shows Google's consent form, and you can say no to personalised ads.
@@ -33,7 +33,7 @@ The game does not use analytics or tracking of its own, and it does not sell you
 ## Why
 - Google sign-in and Firebase: to keep your save safe and to let you continue on another device.
 - Public snapshot: for the ghost fights against other players.
-- Leaderboard: to show the scores of the weekend tournaments, only after you say yes.
+- Leaderboard: to show the scores of the weekend tournaments, only if you say yes.
 - AdMob: to pay for the game.
 
 ## How long, and how to delete your data
@@ -54,7 +54,7 @@ If this policy changes, the date at the top changes too.
 
 ## Korte samenvatting (Nederlands)
 - Zonder inloggen blijft alles op je toestel.
-- Tournooi-scores worden pas publiek (naam, level, scores) nadat je op het einde van een run "ja" kiest.
+- Tournooi-scores (gamenaam, level, scores; geen echte naam of e-mailadres) zijn alleen zichtbaar voor andere spelers als je dat zelf toestaat: je kiest dat één keer na je eerste run, en kunt het altijd aanpassen in Options.
 - Met Google-login staat je savegame in Firebase (alleen jij kan die lezen) en een publieke "ghost" (naam, level, kracht, uitrusting) voor gevechten tegen andere spelers. Je e-mailadres wordt niet getoond aan anderen.
 - Optionele advertenties via Google AdMob (met toestemmingsformulier waar dat verplicht is); aankopen via Google Play.
 - Alles verwijderen: Options → Reset Character (wist ook de cloud-save en de ghost), of mail naar worldofronodin@gmail.com.
