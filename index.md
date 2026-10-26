@@ -13,7 +13,7 @@ Contact: worldofronodin@gmail.com
 **If you sign in with Google (optional, you can also play offline)**
 - Google sign-in gives the game your Google account identifier, your email address and your profile name. The game uses the identifier to know which save is yours. The email address and profile name are not shown to other players.
 - Your character save is stored in Google Firebase (Cloud Firestore) under your account identifier, so you can continue on another device. It holds your character name, level, skills, items, spells, timed boosts and in-game progress. Only you can read it.
-- A **public build snapshot** is stored too, so other players can fight a "ghost" of your build: your character name, level, power, equipped gear and spells. It is readable by other signed-in players. It carries no email address.
+- A **public build snapshot** is stored too, so other players can fight a "ghost" of your build: your character name, level, power, equipped gear and spells (with their levels and upgrades). It is readable by other signed-in players. It carries no email address.
 
 **Weekend tournaments (only if you sign in)**
 - When you start a tournament run, the game stores in Firebase that you started it (your account identifier, the tournament, the weekend and the server time), so a run cannot be stretched.
