@@ -1,6 +1,6 @@
 # Privacy Policy - World of Ronodin
 
-Last updated: 2026-10-26
+Last updated: 2026-10-27
 
 World of Ronodin ("the game") is a hobby game made by one person. This page says what the game stores about you, why, and how to have it removed.
 Contact: worldofronodin@gmail.com
@@ -19,7 +19,8 @@ Contact: worldofronodin@gmail.com
 - When you start a tournament run, the game stores in Firebase that you started it (your account identifier, the tournament, the weekend and the server time), so a run cannot be stretched.
 - After your first run the game **asks whether to show your scores on the leaderboards**; you can change the answer at any time in Options. If you say yes, your **game name**, your main character's level and your scores of the weekend can be read by other signed-in players. The game name is a name you chose yourself: it does not have to be your real name, and other players may use the same name. If you say no, only you can see your results.
 - A private record of your own results per weekend is stored under your account identifier. Only you can read it.
-- Reset Character removes your private records and your run, and your save. **Scores you chose to show stay on the leaderboards, but under a made-up name** (for example "Brass Fox 42") instead of your game name, so the ranks of other players do not change. They still carry the same internal account identifier as before; nothing else about you is kept with them. To have even those scores removed, write to worldofronodin@gmail.com.
+- During a tournament run the game also stores a **public ghost of your run character** for that weekend, so other runs can meet it as an opponent: its level, power, equipped gear and spells, under a **made-up name** (for example "Cinderfang"), never your game name. It does not depend on your leaderboard choice and carries no email address. It is readable by other signed-in players.
+- Reset Character removes your private records, your run, the ghost of your run character and your save. **Scores you chose to show stay on the leaderboards, but under a made-up name** (for example "Brass Fox 42") instead of your game name, so the ranks of other players do not change. They still carry the same internal account identifier as before; nothing else about you is kept with them. To have even those scores removed, write to worldofronodin@gmail.com.
 
 **Advertising (Google AdMob)**
 - The game shows optional rewarded ads (you choose to watch one for a boost). Google AdMob may use your device's advertising ID and similar data to show and measure ads. Where the law requires it (for example in the EU/EEA and UK), the game first shows Google's consent form, and you can say no to personalised ads.
@@ -32,12 +33,12 @@ The game does not use analytics or tracking of its own, and it does not sell you
 
 ## Why
 - Google sign-in and Firebase: to keep your save safe and to let you continue on another device.
-- Public snapshot: for the ghost fights against other players.
+- Public snapshot and run ghost: for the ghost fights against other players.
 - Leaderboard: to show the scores of the weekend tournaments, only if you say yes.
 - AdMob: to pay for the game.
 
 ## How long, and how to delete your data
-- **In the game:** Options → **Reset Character**. This deletes your character on the device **and** your cloud save **and** your public build snapshot **and** your private tournament records; the scores you chose to show stay under a made-up name (see above). If you are offline at that moment, the deletion is done the next time you sign in.
+- **In the game:** Options → **Reset Character**. This deletes your character on the device **and** your cloud save **and** your public build snapshot **and** the ghost of your tournament run **and** your private tournament records; the scores you chose to show stay under a made-up name (see above). If you are offline at that moment, the deletion is done the next time you sign in.
 - **By email:** write to worldofronodin@gmail.com from the address of your Google account and ask for your data to be deleted. It is deleted within 30 days.
 - Uninstalling the game removes the data on your device. Cloud data stays until you reset the character or ask for deletion.
 
@@ -55,6 +56,6 @@ If this policy changes, the date at the top changes too.
 ## Korte samenvatting (Nederlands)
 - Zonder inloggen blijft alles op je toestel.
 - Tournooi-scores (gamenaam, level, scores; geen echte naam of e-mailadres) zijn alleen zichtbaar voor andere spelers als je dat zelf toestaat: je kiest dat één keer na je eerste run, en kunt het altijd aanpassen in Options.
-- Met Google-login staat je savegame in Firebase (alleen jij kan die lezen) en een publieke "ghost" (naam, level, kracht, uitrusting) voor gevechten tegen andere spelers. Je e-mailadres wordt niet getoond aan anderen.
+- Met Google-login staat je savegame in Firebase (alleen jij kan die lezen) en een publieke "ghost" (naam, level, kracht, uitrusting) voor gevechten tegen andere spelers. Tijdens een toernooi-run staat er ook een publieke ghost van je run-karakter (level, kracht, uitrusting, spells, onder een verzonnen naam). Je e-mailadres wordt niet getoond aan anderen.
 - Optionele advertenties via Google AdMob (met toestemmingsformulier waar dat verplicht is); aankopen via Google Play.
 - Alles verwijderen: Options → Reset Character (wist ook de cloud-save en de ghost; scores die je zichtbaar maakte blijven staan onder een verzonnen naam), of mail naar worldofronodin@gmail.com om ook die te laten wissen.
