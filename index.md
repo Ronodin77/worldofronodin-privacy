@@ -1,6 +1,6 @@
 # Privacy Policy - World of Ronodin
 
-Last updated: 2026-10-29
+Last updated: 2026-10-31
 
 World of Ronodin ("the game") is a hobby game made by one person. This page says what the game stores about you, why, and how to have it removed.
 Contact: worldofronodin@gmail.com
@@ -22,6 +22,15 @@ Contact: worldofronodin@gmail.com
 - During a tournament run the game also stores a **public ghost of your run character** for that weekend, so other runs can meet it as an opponent: its level, power, equipped gear and spells, under a **made-up name** (for example "Cinderfang"), never your game name and never your main character. Starting a run is the agreement to this: the notice before the run says so. It does not depend on your leaderboard choice and carries no email address. It is readable by other signed-in players.
 - Reset Character removes your private records, your run, the ghost of your run character and your save. **Scores you chose to show stay on the leaderboards, but under a made-up name** (for example "Brass Fox 42") instead of your game name, so the ranks of other players do not change. They still carry the same internal account identifier as before; nothing else about you is kept with them. To have even those scores removed, write to worldofronodin@gmail.com.
 
+**Achievements, Obols and inviting friends (only if you sign in)**
+- Your achievements (counters such as monsters defeated, the achievements you reached) and your Obols (the in-game coin) are part of your character save. Only you can read them.
+- **Inviting a friend:** the game gives you a personal invite code made from your account identifier and stores it in Firebase so a friend can use it. If you type a friend's email address to invite them, it is only used to open your own mail app with a ready message: **the game does not send the email and does not store or collect that address.**
+- If you enter an invite code yourself, the game stores in Firebase who invited you (the account identifier of the inviter) and your character level, so the inviter's game can count friends who reached a level. The inviter sees a number only, never your name or email address. Nobody can read these records except the two accounts involved.
+- Reset Character removes your invite code, the record of who invited you and your entry in that person's friend count.
+
+**Update check (on a phone, no sign-in needed)**
+- When the game starts on a phone it reads one small public file (`latest.json`, the number of the newest version) from this site's host, GitHub Pages, to see whether a newer version is available. The game sends no account, save or device data with it. Like any website, GitHub receives your IP address and the usual request data, and the game does not keep the answer.
+
 **Advertising (Google AdMob)**
 - The game shows optional rewarded ads (you choose to watch one for a boost). Google AdMob may use your device's advertising ID and similar data to show and measure ads. Where the law requires it (for example in the EU/EEA and UK), the game first shows Google's consent form, and you can say no to personalised ads.
 - If you buy the Supporter pack, ads are removed.
@@ -34,6 +43,7 @@ The game does not use analytics or tracking of its own, and it does not sell you
 ## Why
 - Google sign-in and Firebase: to keep your save safe and to let you continue on another device.
 - Run ghost: for the ghost fights against other tournament runs.
+- Invite code and friend count: to give an achievement for bringing friends to the game.
 - Leaderboard: to show the scores of the weekend tournaments, only if you say yes.
 - AdMob: to pay for the game.
 
@@ -47,6 +57,7 @@ The game is not meant for children under 13, and it does not knowingly collect d
 
 ## Other services
 Google Firebase, Google Sign-In, Google AdMob and Google Play have their own privacy policies: https://policies.google.com/privacy
+GitHub Pages (the update check and this page) has its own: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
 ## Changes
 If this policy changes, the date at the top changes too.
@@ -57,5 +68,7 @@ If this policy changes, the date at the top changes too.
 - Zonder inloggen blijft alles op je toestel.
 - Tournooi-scores (gamenaam, level, scores; geen echte naam of e-mailadres) zijn alleen zichtbaar voor andere spelers als je dat zelf toestaat: je kiest dat één keer na je eerste run, en kunt het altijd aanpassen in Options.
 - Met Google-login staat je savegame in Firebase (alleen jij kan die lezen). Je hoofdkarakter wordt niet aan andere spelers getoond. Alleen als je een toernooi-run start, staat er een publieke ghost van je run-karakter (level, kracht, uitrusting, spells, onder een verzonnen naam, nooit je gamenaam); die start is je toestemming. Je e-mailadres wordt niet getoond aan anderen.
+- Uitnodigen: je e-mailadres-invoer voor een vriend opent alleen je eigen mail-app; het spel verstuurt of bewaart dat adres niet. Een uitnodigingscode en wie je uitnodigde (alleen account-id's en een level) staan in Firebase om vrienden te tellen.
+- Op een telefoon leest het spel bij het opstarten één klein openbaar bestand (het nummer van de nieuwste versie) van GitHub Pages om een update voor te stellen; er worden geen gegevens van jou meegestuurd (GitHub ziet wel je IP-adres, zoals elke website).
 - Optionele advertenties via Google AdMob (met toestemmingsformulier waar dat verplicht is); aankopen via Google Play.
 - Alles verwijderen: Options → Reset Character (wist ook de cloud-save en de ghost; scores die je zichtbaar maakte blijven staan onder een verzonnen naam), of mail naar worldofronodin@gmail.com om ook die te laten wissen.
