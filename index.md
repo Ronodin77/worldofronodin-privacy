@@ -1,6 +1,6 @@
 # Privacy Policy - World of Ronodin
 
-Last updated: 2026-10-31
+Last updated: 2026-11-01
 
 World of Ronodin ("the game") is a hobby game made by one person. This page says what the game stores about you, why, and how to have it removed.
 Contact: worldofronodin@gmail.com
@@ -13,7 +13,12 @@ Contact: worldofronodin@gmail.com
 **If you sign in with Google (optional, you can also play offline)**
 - Google sign-in gives the game your Google account identifier, your email address and your profile name. The game uses the identifier to know which save is yours. The email address and profile name are not shown to other players.
 - Your character save is stored in Google Firebase (Cloud Firestore) under your account identifier, so you can continue on another device. It holds your character name, level, skills, items, spells, timed boosts and in-game progress. Only you can read it.
-- Your main character is **not shown to other players**: the game stores no public copy of it. (Older versions stored a public build snapshot; the game removes it from the cloud the first time you play after updating.)
+- Your main character is **not shown to other players**: the game stores no public copy of it. (Older versions stored a public build snapshot; the game removes it from the cloud the first time you play after updating.) The only thing of it that other players can see is what you choose to show on the **main game boards** (next section).
+
+**Main game boards (only if you sign in)**
+- The first time you open the Main game tab of the leaderboards, the game **asks whether to show your stats**; you can change the answer at any time in Options. If you say yes, your **game name**, your main character's level and its totals (total damage dealt, hero XP and the XP of your skills) are stored in Firebase and can be read by other signed-in players. They are sent when your save is stored to the cloud, and only when a total grew. The game name is a name you chose yourself: it does not have to be your real name. If you say no (or do not answer), nothing is sent.
+- The boards are kept per phase of the game (for example "Closed test", "Preseason"); a phase's boards stay readable after the next phase starts.
+- Reset Character gives your entries on these boards a **made-up name** instead of your game name, like the tournament scores; to have them removed, write to worldofronodin@gmail.com.
 
 **Weekend tournaments (only if you sign in)**
 - When you start a tournament run, the game stores in Firebase that you started it (your account identifier, the tournament, the weekend and the server time), so a run cannot be stretched.
@@ -44,7 +49,7 @@ The game does not use analytics or tracking of its own, and it does not sell you
 - Google sign-in and Firebase: to keep your save safe and to let you continue on another device.
 - Run ghost: for the ghost fights against other tournament runs.
 - Invite code and friend count: to give an achievement for bringing friends to the game.
-- Leaderboard: to show the scores of the weekend tournaments, only if you say yes.
+- Leaderboards: to show the scores of the weekend tournaments and the totals of the main game boards, only if you say yes.
 - AdMob: to pay for the game.
 
 ## How long, and how to delete your data
@@ -67,6 +72,7 @@ If this policy changes, the date at the top changes too.
 ## Korte samenvatting (Nederlands)
 - Zonder inloggen blijft alles op je toestel.
 - Tournooi-scores (gamenaam, level, scores; geen echte naam of e-mailadres) zijn alleen zichtbaar voor andere spelers als je dat zelf toestaat: je kiest dat één keer na je eerste run, en kunt het altijd aanpassen in Options.
+- Hetzelfde voor de hoofdspel-borden (level, totale schade, skill-XP): het spel vraagt het één keer bij het eerste bezoek aan dat tabblad; zonder ja wordt er niets verstuurd. Na Reset Character staan die scores onder een verzonnen naam.
 - Met Google-login staat je savegame in Firebase (alleen jij kan die lezen). Je hoofdkarakter wordt niet aan andere spelers getoond. Alleen als je een toernooi-run start, staat er een publieke ghost van je run-karakter (level, kracht, uitrusting, spells, onder een verzonnen naam, nooit je gamenaam); die start is je toestemming. Je e-mailadres wordt niet getoond aan anderen.
 - Uitnodigen: je e-mailadres-invoer voor een vriend opent alleen je eigen mail-app; het spel verstuurt of bewaart dat adres niet. Een uitnodigingscode en wie je uitnodigde (alleen account-id's en een level) staan in Firebase om vrienden te tellen.
 - Op een telefoon leest het spel bij het opstarten één klein openbaar bestand (het nummer van de nieuwste versie) van GitHub Pages om een update voor te stellen; er worden geen gegevens van jou meegestuurd (GitHub ziet wel je IP-adres, zoals elke website).
