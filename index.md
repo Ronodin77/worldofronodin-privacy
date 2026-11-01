@@ -42,6 +42,7 @@ Contact: worldofronodin@gmail.com
 
 **Purchases (Google Play Billing)**
 - Purchases are handled by Google Play. The game never sees your payment details, only whether a purchase was made.
+- For each purchase the game keeps a **purchase record**: the order number and purchase token Google Play gives, the product, the price shown and the date. It is kept on your device and, if you sign in, in your cloud save (only you can read it), and you can see it in the Shop ("My purchases"). It is your proof of purchase: it lets the game give back what you bought (also after Reset Character or on a new device) and lets us check a purchase if something goes wrong.
 
 The game does not use analytics or tracking of its own, and it does not sell your data.
 
@@ -53,7 +54,7 @@ The game does not use analytics or tracking of its own, and it does not sell you
 - AdMob: to pay for the game.
 
 ## How long, and how to delete your data
-- **In the game:** Options → **Reset Character**. This deletes your character on the device **and** your cloud save **and** any public build snapshot of an older version **and** the ghost of your tournament run **and** your private tournament records; the scores you chose to show stay under a made-up name (see above). If you are offline at that moment, the deletion is done the next time you sign in.
+- **In the game:** Options → **Reset Character**. This deletes your character on the device **and** your cloud save **and** any public build snapshot of an older version **and** the ghost of your tournament run **and** your private tournament records; the scores you chose to show stay under a made-up name (see above). If you are offline at that moment, the deletion is done the next time you sign in. Your **purchase records** are kept, so you keep what you bought with real money; the new character's cloud save holds them again. To have them removed too, write to us (below).
 - **By email:** write to worldofronodin@gmail.com from the address of your Google account and ask for your data to be deleted. It is deleted within 30 days.
 - Uninstalling the game removes the data on your device. Cloud data stays until you reset the character or ask for deletion.
 
@@ -75,5 +76,5 @@ If this policy changes, the date at the top changes too.
 - Met Google-login staat je savegame in Firebase (alleen jij kan die lezen). Je hoofdkarakter wordt niet aan andere spelers getoond. Alleen als je een toernooi-run start, staat er een publieke ghost van je run-karakter (level, kracht, uitrusting, spells, onder een verzonnen naam, nooit je gamenaam); die start is je toestemming. Je e-mailadres wordt niet getoond aan anderen.
 - Uitnodigen: je e-mailadres-invoer voor een vriend opent alleen je eigen mail-app; het spel verstuurt of bewaart dat adres niet. Een uitnodigingscode en wie je uitnodigde (alleen account-id's en een level) staan in Firebase om vrienden te tellen.
 - Op een telefoon leest het spel bij het opstarten één klein openbaar bestand (het nummer van de nieuwste versie) van GitHub Pages om een update voor te stellen; er worden geen gegevens van jou meegestuurd (GitHub ziet wel je IP-adres, zoals elke website).
-- Optionele advertenties via Google AdMob (met toestemmingsformulier waar dat verplicht is); aankopen via Google Play.
-- Alles verwijderen: Options → Reset Character (wist ook de cloud-save en de ghost; scores die je zichtbaar maakte blijven staan onder een verzonnen naam), of mail naar worldofronodin@gmail.com om ook die te laten wissen.
+- Optionele advertenties via Google AdMob (met toestemmingsformulier waar dat verplicht is); aankopen via Google Play. Per aankoop bewaart het spel een aankoopbewijs (ordernummer en token van Google Play, product, prijs, datum) op je toestel en in je cloud-save; je ziet het in de Shop ("My purchases"). Reset Character houdt het bij, zodat je behoudt wat je met echt geld kocht.
+- Alles verwijderen: Options → Reset Character (wist ook de cloud-save en de ghost; scores die je zichtbaar maakte blijven staan onder een verzonnen naam, en aankoopbewijzen blijven bewaard), of mail naar worldofronodin@gmail.com om ook die te laten wissen.
