@@ -1,6 +1,6 @@
 # Privacy Policy - World of Ronodin
 
-Last updated: 2026-11-01
+Last updated: 2026-11-06
 
 World of Ronodin ("the game") is a hobby game made by one person. This page says what the game stores about you, why, and how to have it removed.
 Contact: worldofronodin@gmail.com
@@ -16,7 +16,7 @@ Contact: worldofronodin@gmail.com
 - Your main character is **not shown to other players**: the game stores no public copy of it. (Older versions stored a public build snapshot; the game removes it from the cloud the first time you play after updating.) The only thing of it that other players can see is what you choose to show on the **main game boards** (next section).
 
 **Main game boards (only if you sign in)**
-- When you choose your game name, the game tells you that, **when you play signed in, your game name, level and totals are shown on the leaderboards**; this is on by default for a new character and you can turn it off at any time in Options ("Main game boards"). Older characters that answered the question keep their answer; the others are still asked once. If it is on, your **game name**, your main character's level and its totals (total damage dealt, hero XP and the XP of your skills) are stored in Firebase and can be read by other signed-in players. They are sent when your save is stored to the cloud, and only when a total grew. The game name is a name you chose yourself: it does not have to be your real name, and nothing on the boards is linked to your real name or email address. If it is off (or you were not asked yet), nothing is sent.
+- When you choose your game name, the game tells you that, **when you play signed in, your game name, level and totals are shown on the leaderboards**; this is on by default for a new character and you can turn it off at any time in Options ("Main game boards"). Older characters that answered the question keep their answer; the others are still asked once. If it is on, your **game name**, your main character's level and its totals (total damage dealt, hero XP, the XP of your skills and the most damage you dealt to the boss in one boss run, per difficulty) are stored in Firebase and can be read by other signed-in players. They are sent when your save is stored to the cloud, and only when a total grew. The game name is a name you chose yourself: it does not have to be your real name, and nothing on the boards is linked to your real name or email address. If it is off (or you were not asked yet), nothing is sent.
 - The boards are kept per phase of the game (for example "Closed test", "Preseason"); a phase's boards stay readable after the next phase starts.
 - Reset Character gives your entries on these boards a **made-up name** instead of your game name, like the tournament scores; to have them removed, write to worldofronodin@gmail.com.
 
@@ -50,7 +50,7 @@ The game does not use analytics or tracking of its own, and it does not sell you
 - Google sign-in and Firebase: to keep your save safe and to let you continue on another device.
 - Run ghost: for the ghost fights against other tournament runs.
 - Invite code and friend count: to give an achievement for bringing friends to the game.
-- Leaderboards: to show the scores of the weekend tournaments and the totals of the main game boards, only if you say yes.
+- Leaderboards: to show the scores of the weekend tournaments (including the boss damage of a boss tournament) and the totals of the main game boards (including the most damage you dealt to the boss), only if you say yes.
 - AdMob: to pay for the game.
 
 ## How long, and how to delete your data
