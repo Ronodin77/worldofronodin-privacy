@@ -1,6 +1,6 @@
 # Privacy Policy - World of Ronodin
 
-Last updated: 2026-11-10
+Last updated: 2026-11-21
 
 World of Ronodin ("the game") is a hobby game made by one person. This page says what the game stores about you, why, and how to have it removed.
 Contact: worldofronodin@gmail.com
@@ -9,14 +9,15 @@ Contact: worldofronodin@gmail.com
 
 **On your device (always)**
 - Your character save, your settings (volume, controls, display mode) and a few "seen" hints. They stay on your device and are not sent anywhere unless you sign in (see below).
+- The time you have played on this device, in total and in the current phase of the game (counters shown on the "Time played" board on the home island). It is kept in a file of its own on your device only: it is not part of your character save, is never sent to the cloud and is never shown to other players.
 
 **If you sign in with Google (optional, you can also play offline)**
 - Google sign-in gives the game your Google account identifier, your email address and your profile name. The game uses the identifier to know which save is yours. The email address and profile name are not shown to other players.
-- Your character save is stored in Google Firebase (Cloud Firestore) under your account identifier, so you can continue on another device. It holds your character name, level, skills, items, spells, timed boosts, in-game progress, the phase of the game it was played in and a short history of your earlier characters. Only you can read it.
+- Your character save is stored in Google Firebase (Cloud Firestore) under your account identifier, so you can continue on another device. It holds your character name, level, skills, items, spells, the tiers of your home buildings, how many meals you cooked, how much stardust you have, timed boosts (and the time left on your food and elixir boosts), in-game progress, the phase of the game it was played in and a short history of your earlier characters. Only you can read it.
 - Your main character is **not shown to other players**: the game stores no public copy of it. (Older versions stored a public build snapshot; the game removes it from the cloud the first time you play after updating.) The only thing of it that other players can see is what you choose to show on the **main game boards** (next section).
 
 **Main game boards (only if you sign in)**
-- When you choose your game name, the game tells you that, **when you play signed in, your game name, level and totals are shown on the leaderboards**; this is on by default for a new character and you can turn it off at any time in Options ("Main game boards"). Older characters that answered the question keep their answer; the others are still asked once. If it is on, your **game name**, your main character's level and its totals (total damage dealt, hero XP, the XP of your skills and the most damage you dealt to a boss in one boss run, per boss and difficulty) are stored in Firebase and can be read by other signed-in players. They are sent when your save is stored to the cloud, and only when a total grew. The game name is a name you chose yourself: it does not have to be your real name, and nothing on the boards is linked to your real name or email address. If it is off (or you were not asked yet), nothing is sent.
+- When you choose your game name, the game tells you that, **when you play signed in, your game name, level and totals are shown on the leaderboards**; this is on by default for a new character and you can turn it off at any time in Options ("Main game boards"). Older characters that answered the question keep their answer; the others are still asked once. If it is on, your **game name**, your main character's level and its totals (total damage dealt, hero XP, the XP of your skills, the most damage you dealt to a boss in one boss run, per boss and difficulty, and the most items you gathered in one gathering run, per stage and difficulty) are stored in Firebase and can be read by other signed-in players. They are sent when your save is stored to the cloud, and only when a total grew. The game name is a name you chose yourself: it does not have to be your real name, and nothing on the boards is linked to your real name or email address. If it is off (or you were not asked yet), nothing is sent.
 - The boards are kept per phase of the game (for example "Closed test", "Preseason"); a phase's boards stay readable after the next phase starts.
 - **A new phase starts everybody again at level 1** (for example when the Preseason starts): your character is wiped, and your **game name, looks, Obols, achievements and purchases stay**. The game keeps a short **history of your earlier characters** (the phase, your game name, level, best skills and total damage) in your own cloud save, so you can see it again. Only you can read it. It is not shown to other players.
 - Reset Character gives your entries on these boards a **made-up name** instead of your game name, like the tournament scores; to have them removed, write to worldofronodin@gmail.com.
@@ -51,7 +52,7 @@ The game does not use analytics or tracking of its own, and it does not sell you
 - Google sign-in and Firebase: to keep your save safe and to let you continue on another device.
 - Run ghost: for the ghost fights against other tournament runs.
 - Invite code and friend count: to give an achievement for bringing friends to the game.
-- Leaderboards: to show the scores of the weekend tournaments (including the boss damage of a boss tournament) and the totals of the main game boards (including the most damage you dealt to the boss), only if you say yes.
+- Leaderboards: to show the scores of the weekend tournaments (including the boss damage of a boss tournament) and the totals of the main game boards (including the most damage you dealt to the boss and the most items you gathered in one gathering run), only if you say yes.
 - AdMob: to pay for the game.
 
 ## How long, and how to delete your data
@@ -72,7 +73,7 @@ If this policy changes, the date at the top changes too.
 ---
 
 ## Korte samenvatting (Nederlands)
-- Zonder inloggen blijft alles op je toestel.
+- Zonder inloggen blijft alles op je toestel. De speeltijd (te zien op het bord op het thuis-eiland) staat altijd alleen op je toestel in een eigen bestand: niet in je savegame, niet in de cloud en niet zichtbaar voor anderen.
 - Bij een nieuwe fase van het spel (bijvoorbeeld de Preseason) begint iedereen opnieuw op level 1; je naam, looks, Obols, achievements en aankopen blijven. Een korte geschiedenis van je vorige karakters (fase, naam, level, beste skills, totale schade) staat in je eigen cloud-save; alleen jij kunt die lezen.
 - Tournooi-scores en hoofdspel-borden (gamenaam, level, totale schade, skill-XP, scores; geen echte naam of e-mailadres) zijn zichtbaar voor andere spelers wanneer je ingelogd speelt. Dat staat standaard aan voor een nieuw karakter: het spel zegt het op het scherm waar je je gamenaam kiest, en je zet het altijd uit in Options. Oudere karakters die al antwoordden houden hun antwoord. Staat het uit, dan wordt er niets verstuurd. Na Reset Character staan de scores onder een verzonnen naam.
 - Met Google-login staat je savegame in Firebase (alleen jij kan die lezen). Je hoofdkarakter wordt niet aan andere spelers getoond. Alleen als je een toernooi-run start, staat er een publieke ghost van je run-karakter (level, kracht, uitrusting, spells, onder een verzonnen naam, nooit je gamenaam); die start is je toestemming. Je e-mailadres wordt niet getoond aan anderen.
