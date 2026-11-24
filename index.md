@@ -1,6 +1,6 @@
 # Privacy Policy - World of Ronodin
 
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 World of Ronodin ("the game") is a hobby game made by one person. This page says what the game stores about you, why, and how to have it removed.
 Contact: worldofronodin@gmail.com
@@ -13,7 +13,7 @@ Contact: worldofronodin@gmail.com
 
 **If you sign in with Google (optional, you can also play offline)**
 - Google sign-in gives the game your Google account identifier, your email address and your profile name. The game uses the identifier to know which save is yours. The email address and profile name are not shown to other players.
-- Your character save is stored in Google Firebase (Cloud Firestore) under your account identifier, so you can continue on another device. It holds your character name, level, skills, items, spells, the tiers of your home buildings, how many meals you cooked, how much stardust you have, timed boosts (and the time left on your food and elixir boosts), in-game progress, the phase of the game it was played in and a short history of your earlier characters. Only you can read it.
+- Your character save is stored in Google Firebase (Cloud Firestore) under your account identifier, so you can continue on another device. It holds your character name, level, skills, items, spells, the tiers of your home buildings, how many meals you cooked, how much stardust you have, your dungeon clears and best times, timed boosts (and the time left on your food and elixir boosts), in-game progress, the phase of the game it was played in and a short history of your earlier characters. Only you can read it.
 - Your main character is **not shown to other players**: the game stores no public copy of it. (Older versions stored a public build snapshot; the game removes it from the cloud the first time you play after updating.) The only thing of it that other players can see is what you choose to show on the **main game boards** (next section).
 
 **Main game boards (only if you sign in)**
